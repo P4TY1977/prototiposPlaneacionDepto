@@ -50,7 +50,7 @@ https://templatemo.com/tm-529-ramayana
                     <table border="0" width="90%" align="center">
                     <thead>
                           <tr>
-                            <th colspan="2" align="center" bgcolor="#FFFF99"><center>PLANEACIÓN PRESUPUESTAL DE PROYECTO<br /><br /></center></th>
+                            <th colspan="2" align="center" ><center>PLANEACIÓN PRESUPUESTAL DE PROYECTO<br /></center></th>
                           </tr>
                         </thead>
                     </table>
@@ -60,9 +60,19 @@ https://templatemo.com/tm-529-ramayana
                     <tr><td width="20%">Clave: </td><td>53401007</td></tr>
                     <tr><td width="20%">Proyecto: </td><td>ÁREA DE INVESTIGACIÓN DEL DEPTO DE ESTUDIOS CULTURALES</td></tr>    
                     <tr><td width="20%">Responsable: </td><td>GLADIS ORTÍZ</td></tr>        
-                    <tr><td width="35%" >Presupuesto inicial: </td><td>$15,000.00</td></tr>
-                    <tr><td width="35%" >Presupuesto asignado: </td><td>$4,000,00</td></tr>                    
-                    <tr><td width="35%" >Presupuesto disponible: </td><td>$11,000.00</td></tr>                    
+                    <tr><td width="35%" >Presupuesto inicial: </td><td>
+                    Prioridad 1: $ 12,750.00 <br />
+                    Prioridad 2: $ 2,250.00 <br />
+                    <strong>TOTAL: $ 15,000.00  </strong>
+                    </td></tr>
+                    <tr><td width="35%" >Presupuesto asignado: </td><td>
+                      <strong>TOTAL: $ 3,000.00  </strong>
+                    </td></tr>                    
+                    <tr><td width="35%" >Presupuesto disponible: </td><td>
+                    Prioridad 1: $ 9,750.00 <br />
+                    Prioridad 2: $ 2,250.00 <br />
+                    <strong>TOTAL: $ 12,000.00  </strong>
+                    </td></tr>                    
                     <tr><td width="35%" >Fecha de elaboración: </td><td>12/06/2021</td></tr>
                    
                      </table>                          
@@ -82,9 +92,7 @@ https://templatemo.com/tm-529-ramayana
   <tr class="celdaTitulo">
       <th ><CENTER>PARTIDA</CENTER></th> 
       <th ><CENTER>CONCEPTO</CENTER></th> 
-      <th ><CENTER>PRESUPUESTO INICIAL</CENTER></th>  
-      <th ><CENTER>EJERCIDO</CENTER></th>  
-      <th ><CENTER>SALDO ACTUAL</CENTER></th>  
+      <th ><CENTER>PRESUPUESTO ASIGNADO</CENTER></th>  
       <th ><CENTER>EDITAR</CENTER></th>      
       <th ><CENTER>ELIMINAR</CENTER></th>      
       </tr>
@@ -93,9 +101,11 @@ https://templatemo.com/tm-529-ramayana
        <tr class="celdaOscura">
       <td style="font-size:11px">3330101</td>
       <td style="font-size:11px">PAPELERÍA Y ARTÍCULOS DE OFICINA </td>
-      <td style="font-size:11px">2,000</td>
-      <td style="font-size:11px">0</td>
-      <td style="font-size:11px">2,000</td>
+      <td style="font-size:11px">
+      Prioridad 1: $ 1,700.00 <br />
+      Prioridad 2: $ 300.00 <br />
+      <strong>TOTAL: $ 2,000.00  </strong>
+      </td>
       
          <td align="center" style="font-size:11px"><a href="formaActualizarDetallePresupuestalProyInvMontos.html"><img src="assets/images/pencil.png"  style="width:45px" /> </a></td>
 
@@ -106,16 +116,17 @@ https://templatemo.com/tm-529-ramayana
        <tr class="celdaOscura">
       <td style="font-size:11px">3330101</td>
       <td style="font-size:11px">MATERIALES Y ÚTILES PARA EL PROCESAMIENTO EN EQUIPOS Y BIENES </td>
-      <td style="font-size:11px">2,000</td>
-      <td style="font-size:11px">0</td>
-      <td style="font-size:11px">2,000</td>
+      <td style="font-size:11px">
+      Prioridad 1: $ 1,000.00 <br />
+      Prioridad 2: $ 850.00 <br />
+      <strong>TOTAL: $ 150.00  </strong></td>
       
          <td align="center" style="font-size:11px"> <a href="formaActualizarDetallePresupuestalProyInvMontos.html"><img src="assets/images/pencil.png"  style="width:45px" /> </a></td>
 
       <td align="center" style="font-size:11px"> <a href="#"><img src="assets/images/borrar.png"  style="width:30px" /> </a></td>
        </tr>
        <tr><td colspan="7" align="center"><br/>
-                       <input style="color:#F00"   class="texto" name="Continuar" onclick="window.location='mensajeEmailPlaneacionPresupuestal2.html'" id="sub" value="CONCLUIR REGISTRO DE PLANEACIÓN PRESUPUESTAL" type="button"><br />
+                       <input style="color:#F00"   class="texto" name="Continuar" onclick="window.location='mensajeEmailPlaneacionPresupuestal2.html'" id="sub" value="CONCLUIR INFORME PRESUPUESTAL" type="button"><br />
                         <font color="#0000FF" size="-3">(Solo se puede concluir cuando el monto disponible del presupuesto esté en cero y todo haya sido asignado en la planeación) </font>
                      </td></tr>  
        </table>
@@ -130,8 +141,11 @@ https://templatemo.com/tm-529-ramayana
                         </tr>
                         </thead>
       
-                    <tr><td >Partida: </td><td><input name="1" size="10" value=""></td></tr>
-                    <tr><td >Concepto: </td><td><input name="1" size="60" value=""></td></tr>
+                    <tr><td >Concepto: </td><td><select class="texto" name="sexo2" id="sexo2">
+                     <option value="MASCULINO">2110101: Papelería y Artículos de Oficina</option>
+                     <option value="MASCULINO">2120101: Materiales y útiles de impresión, reproducción y encuadernación ()</option>
+                     <option value="MASCULINO">2130101: Publicación estadística y geográfica</option>
+			        </select></td></tr>
                     <tr><td width="35%" >Presupuesto inicial: </td><td><input name="1" size="10" value=""></td></tr>
                    
                    </tr>
@@ -190,8 +204,9 @@ https://templatemo.com/tm-529-ramayana
                  <li> <a href="planeacionPresupuestal2.html">Planeación presupuestal</a>
                </li>
                 <li><a href="gestionInforme.html">Planeación de Informe por proyecto presupuestal</a>
-                <font color="#0000FF" size="-3">(Solo estará disponible una vez que la planeación presupuestal hecho por el departamento haya sido concluido y solo estará por un periodo de tiempo)</li>
-                 
+                <font color="#0000FF" size="-3">(Solo estará disponible una vez que la planeación presupuestal hecho por el departamento haya sido concluido y solo estará por un periodo de tiempo)</font></li>
+                <li><a href="catalogoPartidas.html">Catálogo de partidas</a></li>
+                 <li><a href="formaAvisos0.html">Configuración de avisos</a></li>
                 <li><a href="indexJefeDepto.html">Cerrar</a></li>
               </ul>
             </nav>

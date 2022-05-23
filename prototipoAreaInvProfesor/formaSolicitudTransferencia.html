@@ -47,44 +47,74 @@ https://templatemo.com/tm-529-ramayana
                    
                    <div class="default-table">
                    <center>
-                    <table border="0" width="90%" align="center">
+                   <table cellspacing="3" cellpadding="3" width="95%">
                     <thead>
-                          <tr>
-                            <th colspan="2" align="center" ><center>SOLICITUD DE TRANSFERENCIA</center></th>
-                          </tr>
-                        </thead>
-                    </table>
+                     <tr class="celdaTitulo">
+      <th colspan="8"><CENTER>SOLICITUDES DE TRANSFERENCIA<HR></CENTER></th> 
+      </tr>
+  <tr class="celdaTitulo">
+      <th ><CENTER>Proyecto origen</CENTER></th>
+     <th ><CENTER>Partida origen</CENTER></th>
+           <th ><CENTER>Monto</CENTER></th>
+      </tr>
+     </thead>
+   
+        <tr class="celdaOscura">
+       <td style="font-size:11px; text-align:center">PAPELERÍA Y ARTÍCULOS DE OFICINA </td>
+       <td style="font-size:11px; text-align:center">3330101</td>
+       <td style="font-size:11px; text-align:center">$ 1,000.00</td>      
+       </tr>
+       </table>
 
-                    <form>
-                    <table border="0" width="90%" align="center">
-                    <tr><td width="20%">Clave: </td><td>53401007</td></tr>
-                    <tr><td width="20%">Proyecto: </td><td>ÁREA DE INVESTIGACIÓN DEL DEPTO DE ESTUDIOS CULTURALES</td></tr>    
-                    
-                     </table>                          
-                    </form>           
+                           
                     <HR>                             
                     <form>
                       <table border="0" width="90%" align="center">
+                      <thead>
+                          <tr>
+                            <th colspan="7" align="center" ><center>ORIGEN DE LA TRANSFERENCIA</center><br /></th>
+                          </tr>
+                        </thead>
                     <tr>
                     <td>Clave proyecto origen: </td><td><input name="1" size="15" ></td>
                     <td>Partida origen: </td><td><input name="1" size="15"></td>
-                    <td>Clave proyecto destino: </td><td><input name="1" size="15" ></td>
-                    <td>Partida destino: </td><td><input name="1" size="15"></td>
                     <td>Monto: </td><td><input name="1" size="15" value="$0.00"></td>
-                    </tr>
-                    
-                    <tr>
-                    <td colspan="1">Justificación: </td><td colspan="10"> <textarea cols="90" rows="2"> </textarea></td>
                     </tr>
                    
                      <tr>
                      
-                    <td colspan="10" align="center"><br/>
-                       <input class="texto" name="Continuar" onclick="window.location='mensajeEmailAtencionServicioUser.html'" id="sub" value="Solicitar transferencia" type="button"> 
+                    <td colspan="6" align="center"><br/>
+                       <input class="texto" name="Continuar" onclick="window.location='mensajeEmailAtencionServicioUser.html'" id="sub" value="Insertar origen de la transferencia" type="button"> 
                      </td></tr>
                      </table>                            
-                    </form>      
-                    <HR> <br />                            
+                    </form>   
+                     <HR> 
+                     <form>
+                      <table border="0" width="90%" align="center">
+                      <thead>
+                          <tr>
+                            <th colspan="7" align="center" ><center>DESTINO DE LA TRANSFERENCIA </center><br /></th>
+                          </tr>
+                        </thead>
+                    <tr>
+                    <td>Clave proyecto destino: </td><td><input name="1" size="15" ></td>
+                    <td>Partida destino: </td><td><input name="1" size="15"></td>
+                    <td>Monto: </td><td><input name="1" size="15" value="$0.00"></td>
+                    </tr>
+                    <tr>
+                    <td colspan="1">Justificación: </td><td colspan="10"> <textarea cols="90" rows="2"> </textarea></td>
+                    </tr>
+                     <tr>
+                     
+                    <td colspan="6" align="center"><br/>
+                       <input class="texto" name="Continuar" onclick="window.location='mensajeEmailAtencionServicioUser.html'" id="sub" value="Solicitar transferencia" type="button"><br /> <font color="#0033FF">(Para que este boton se active debe haber al menos un origen de transferencia válido)<br/>
+                       <br/>
+                       <font color="#0033FF">(No se permiten partidas 5000 de origen, si el destino no es la misma 5000)</font>
+                       </font>
+                     </td></tr>
+                     </table>                            
+                    </form>   
+                  <br />                            
                    
                    
                     

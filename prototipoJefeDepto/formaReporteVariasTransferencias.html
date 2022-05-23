@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
 
-    <title>UAM</title>
+    <title>Ramayana - Simple HTML Page</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -47,81 +47,37 @@ https://templatemo.com/tm-529-ramayana
                    
                    <div class="default-table">
                    <center>
-                    <table border="0" width="90%" align="center">
-                    <thead>
-                          <tr>
-                            <th colspan="2" align="center" ><center>PLANEACIÓN DE PROYECTO PRESUPUESTAL</center></th>
-                          </tr>
-                        </thead>
-                    </table>
-
-                    <form>
-                    <table border="0" width="90%" align="center">
-                    <tr><td width="20%">Clave: </td><td>53401007</td></tr>
-                    <tr><td width="20%">Proyecto: </td><td>ÁREA DE INVESTIGACIÓN DEL DEPTO DE ESTUDIOS CULTURALES</td></tr>    
-                    <tr><td width="20%">Responsable: </td><td>GLADIS ORTÍZ</td></tr>        
-                    <tr><td width="35%" >Monto presupuestal máximo: </td><td>$75,000.00</td></tr>
-                   
-                     </table>                          
-                    </form>           
-                    <HR>
-                    <br/>
-                    <table cellspacing="3" border="0" cellpadding="3" style="width:55%">
+                   <table cellspacing="3" cellpadding="3" style="width:50%"align="center">
                     <thead>
                      <tr class="celdaTitulo">
-      <th colspan="4"><CENTER>DETALLE DE LA PLANEACIÓN PRESUPUESTAL<HR></CENTER></th> 
+      <th colspan="8"><CENTER>FOLIOS INVOLICRADOS EN EL REPORTE<HR></CENTER></th> 
       </tr>
   <tr class="celdaTitulo">
-   <th ><CENTER></CENTER></th>             
-      <th ><CENTER>MONTO ASIGNADO</CENTER></th> 
-      <th ><CENTER>PRIORIDAD</CENTER></th>       
-      
-     
-      <th ><CENTER></CENTER></th>                   
+      <th ><CENTER>FOLIO</CENTER></th>
+      <th ><CENTER>ELIMINAR</CENTER></th>
       </tr>
      </thead>
    
-       
        <tr class="celdaOscura">
-       <TD></TD>
-      <td  align="center" style="font-size:11px">$8,500</td>
-      <td align="center" style="font-size:11px"> 1</td>
-
+       <td ><CENTER>SS_DEC_22_001</CENTER></td>
+      <TD><a href="#"><CENTER><img src="assets/images/borrar.png"  style="width:30px" /> </a></CENTER></TD>
        </tr>
-       <tr class="celdaOscura">
-       <TD></TD>
-      <td align="center" style="font-size:11px">$1,500</td>
-      <td align="center" style="font-size:11px"> 2</td>
-
-       </tr>
-       <tr class="celdaOscura">
-      <td align="center" ><strong>TOTAL ASIGNADO:</strong></td>
-      <td align="center" style="font-size:11px">$10,000</td>
-		<TD></TD>
-       </tr>
-
-       </table>
+       </table><hr><br>
+       <form>
+                    <table border="0" style="width:40%"align="center">
                     
-                    <HR> <br/>                            
-                    <form>
-                      <table border="0" style="width:50%" align="center">
-                      <thead>
-                          <tr>
-                            <th colspan="7" align="center" ><center>ACTUALIZAR EL MONTO PRESUPUESTAL ASIGNADO<br /><br /></center></th>
-                          </tr>
-                        </thead>
-                    <tr><td>Monto: </td><td><input name="1" size="10" value=""></td>
-                    
-                    <td align="center">
-                       <input class="texto" name="Continuar" onclick="window.location='formaActualizarPlaneacionPresupuestal2.html'" id="sub" value="Actualizar monto" type="button"> 
-                     </td></tr>
-                    
+                        
+                     <tr><td>Folio: </td><td><input name="1" size="20"></td>
                      
+                    <td  align="center">
+                       <input class="texto" name="Continuar" onclick="window.location='#'" id="sub" value="Registrar folio" type="button"> 
+                     </td></tr>
                      </table>                            
-                    </form>     
-                  
-                    <HR>     
-<center>                       <input class="texto" name="Continuar" onclick="window.location='planeacionPresupuestal4.html'" id="sub" value="Regresar" type="button"> 
+                    </form>      
+                    <HR> <br />                            
+                   
+                   <input class="texto" name="Continuar" onclick="window.location='mensajeEmailGeneracionReporte.html'" id="sub" value="Generar reporte" type="button"> 
+
                     
                     
                     </center>
@@ -169,10 +125,17 @@ https://templatemo.com/tm-529-ramayana
             <!-- Menu -->
             <nav id="menu">
                <ul>
-                     <li><a href="planeacionPresupuestal.html">Nueva planeación presupuestal</a>
-                 <font color="#0000FF" size="-3">(Solo estará disponible en los meses para el registro de la planeación del siguiente año)  </font></li>
-                 <li><a href="formaAvisos0.html">Configuración de avisos</a></li>
-                <li><a href="indexJefeDepto.html">Cerrar</a></li>
+                <li><a href="gestionPresupuesto.html">Gestión del presupuesto</a></li>
+                
+                <li>
+               <a href="informePresupuestalProyectos2.html">Gestión de informes de proyectos presupuestales </a></font>
+                </li>
+                <li><a href="solicitudesServicioUserAdmon.html">Seguimiento de servicio</a></li>
+
+               <li><a href="formaFechas.html">Configuración de fechas para la gestión del presupuesto</a></li>
+               <li><a href="formaAvisos.html">Configuración de avisos</a></li>
+
+                <li><a href="menuJefeDepto2.html">Cerrar</a></li>
               </ul>
             </nav>
 
