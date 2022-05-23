@@ -81,6 +81,15 @@ https://templatemo.com/tm-529-ramayana
                           <td><input name="1" size="10" value=""></td>
                         </tr>
                         <tr>
+                          <td>Estado: </td>
+                          <td><select class="texto" name="sexo2" id="sexo2">
+                     <option value="MASCULINO">EN PROCESO</option>
+                     <option value="MASCULINO">EN REVISIÓN</option>
+                     <option value="MASCULINO">CONCLUÍDAS</option>
+                     <option value="MASCULINO">CANCELADAS</option>                                          
+			        </select></td>
+                         </tr>
+                        <tr>
                           <td>Año: </td>
                           <td><select class="texto" name="sexo2" id="sexo2">
                      <option value="MASCULINO">2021</option>
@@ -110,8 +119,7 @@ https://templatemo.com/tm-529-ramayana
       </tr>
   <tr class="celdaTitulo">
       <th ><CENTER>FOLIO</CENTER></th>
-      <th ><CENTER>CLAVE</CENTER></th>
-      <th ><CENTER>PROYECTO</CENTER></th>
+      <th ><CENTER>SOLICITANTE</CENTER></th>
       <th ><CENTER>TIPO</CENTER></th> 
       <th ><CENTER>DETALLE DEL SERVICIO</CENTER></th>       
       <th ><CENTER>FECHA DE SOLICITUD</CENTER></th>       
@@ -122,8 +130,7 @@ https://templatemo.com/tm-529-ramayana
    
        <tr class="celdaOscura">
        <td style="font-size:11px">SS_DEC_22_001</td>
-             <td style="font-size:11px">53401007</td>
-                   <td style="font-size:11px">ÁREA DE INVESTIGACIÓN DEL DEPTO DE ESTUDIOS CULTURALES</td>
+             <td style="font-size:11px">OSCAR HERNÁNDEZ</td>
       <td style="font-size:11px">TRANSFERENCIA</td>
       <td align="center" style="font-size:11px"> <a href="#"><img src="assets/images/pdf.png"  style="width:45px" /> </a></td>
       <td>12/06/2021</td>
@@ -134,8 +141,7 @@ https://templatemo.com/tm-529-ramayana
        
         <tr class="celdaOscura">
               <td style="font-size:11px">SS_DEC_22_002</td>
-        <td style="font-size:11px">53401007</td>
-                   <td style="font-size:11px">ÁREA DE INVESTIGACIÓN DEL DEPTO DE ESTUDIOS CULTURALES</td>
+        <td style="font-size:11px">RAQUEL GÜERECA</td>
       <td style="font-size:11px">TRANSFERENCIA</td>
       <td align="center" style="font-size:11px"> <a href="#"><img src="assets/images/pdf.png"  style="width:45px" /> </a></td> 
       <td>12/06/2021</td>      
@@ -147,8 +153,7 @@ https://templatemo.com/tm-529-ramayana
        
        <tr class="celdaOscura">
               <td style="font-size:11px">SS_DEC_22_002</td>
-        <td style="font-size:11px">53401007</td>
-                   <td style="font-size:11px">ÁREA DE INVESTIGACIÓN DEL DEPTO DE ESTUDIOS CULTURALES</td>
+        <td style="font-size:11px">SANTIAGO PALMAS</td>
       <td style="font-size:11px">TRÁMITE DE FACTURA</td>
       <td align="center" style="font-size:11px"> <a href="#"><img src="assets/images/pdf.png"  style="width:45px" /> </a></td> 
       <td>12/06/2021</td>      
@@ -159,8 +164,7 @@ https://templatemo.com/tm-529-ramayana
        
        <tr class="celdaOscura">
               <td style="font-size:11px">SS_DEC_22_002</td>
-        <td style="font-size:11px">53401007</td>
-                   <td style="font-size:11px">ÁREA DE INVESTIGACIÓN DEL DEPTO DE ESTUDIOS CULTURALES</td>
+        <td style="font-size:11px">OSCAR HERNÁNDEZ</td>
       <td style="font-size:11px">TRÁMITE DE FACTURA</td>
       <td align="center" style="font-size:11px"> <a href="#"><img src="assets/images/pdf.png"  style="width:45px" /> </a></td> 
       <td>12/06/2021</td>      
@@ -219,13 +223,16 @@ https://templatemo.com/tm-529-ramayana
             <!-- Menu -->
             <nav id="menu">
                <ul>
-               
-                <li><a href="gestionPresupuesto.html">Gestión del presupuesto</a></li>
-                
-               
+               <li><a href="gestionPresupuesto.html">Gestión del presupuesto</a></li>
                 <li><a href="solicitudesServicioUserAdmon.html">Seguimiento de servicio</a></li>
-               <li><a href="formaFechas.html">Configuración de fechas para la gestión del presupuesto</a></li>
+                <li><a href="catalogoPartidas.html">Catálogo de partidas</a></li>
+               <li><a href="formaFechas.html">Configuración de fechas</a></li>
                <li><a href="formaAvisos.html">Configuración de avisos</a></li>
+               <li><span class="opener">Generación de reportes</span>
+               <ul>
+                              <li><a href="formaReporteVariasTransferencias.html">Reporte de transferencias</a></li>               
+                              </ul>
+               </li> 
                 <li><a href="indexAsistenteDepto.html">Cerrar</a></li>
               </ul>
             </nav>
